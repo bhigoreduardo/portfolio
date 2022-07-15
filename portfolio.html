@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS File Link -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header>
+        <a href="./index.html" class="logo">Portfólio<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="icon-container">
+            <i id="menu-bars" class="fas fa-bars"></i>
+            <i id="contact-icon" class="fas fa-info"></i>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- contact-info section starts -->
+    <section class="contact-info">
+        <i id="close-info" class="fas fa-times"></i>
+
+        <div class="info">
+            <i class="fa fa-mobile-alt"></i>
+            <h2>Telefone</h2>
+            <a href="tel:+55 (66) 9 99673-5787">+55 (66) 9 99673-5787</a>
+        </div>
+
+        <div class="info">
+            <i class="fab fa-whatsapp"></i>
+            <h2>WhatsApp</h2>
+            <a href="tel:+55 (66) 9 99673-5787">+55 (66) 9 99673-5787</a>
+        </div>
+
+        <div class="info">
+            <i class="fas fa-envelope"></i>
+            <h2>E-mail</h2>
+            <a href="mailto:bhigoreduardo@gmail.com">bhigoreduardo@gmail.com</a>
+        </div>
+
+        <div class="info">
+            <i class="fas fa-map-marker-alt"></i>
+            <h2>Endereço</h2>
+            <span>Colatina, ES - Brasil</span>
+        </div>
+
+        <div class="share">
+            <a href="https://www.instagram.com/bhigoreduardo/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/higor-eduardo-batista-a833ab230/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/higoreduardo.batista.5/" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/bhigoreduardo" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/bhigoreduardo" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+    <!-- contact-info section ends -->
+
+    <!-- projetos section starts -->
+    <section id="projetos" class="projetos">
+        <div class="content">
+            <h2 class="title">Web developer portfolio</h2>
+            <p class="graph">Componentes e animações UI/UX com HTML, CSS, JS, SCSS, Bootstrap e jQuery. Confira meus
+                últimos projetos
+                de portfólio de desenvolvimento de software web.</p>
+        </div>
+
+        <div class="group-btn">
+            <button class="btn" data-filter=".institucional">Institucional</button>
+            <button class="btn" data-filter=".delivery">Delivery</button>
+            <button class="btn" data-filter=".ecommerce">E-commerce</button>
+            <button class="btn" data-filter=".jogos">Jogos</button>
+            <button class="btn" data-filter=".landingpage">Landing Page</button>
+            <button class="btn red active" data-filter="*">Todos</button>
+        </div>
+
+        <div class="box-container">
+            <!-- Institucional -->
+            <div class="box institucional">
+                <h3>WeBuild</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/webuild-front.png" alt="WeBuild">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/webuild-back.png" alt="WeBuild">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">SCSS</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/institucional/webuild/index.html" target="_blank"
+                                class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box institucional">
+                <h3>Travel</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/travel-front.png" alt="Travel">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/travel-back.png" alt="Travel">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">SCSS</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/institucional/travel/index.html" target="_blank" class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box institucional">
+                <h3>Marketo.</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/marketo-front.png" alt="Marketo">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/marketo-back.png" alt="Marketo">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/institucional/marketo/index.html" target="_blank"
+                                class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box institucional">
+                <h3>Portólio.</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/portfolio-front.png" alt="Portfolio">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/portfolio-back.png" alt="Portfolio">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/institucional/portfolio/index.html" target="_blank"
+                                class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box institucional">
+                <h3>Travel</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/travel-2-front.png" alt="Travel">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/travel-2-back.png" alt="Travel">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">SCSS</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/institucional/travel-2/index.html" target="_blank"
+                                class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box institucional">
+                <h3>School</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/school-front.png" alt="School">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/school-back.png" alt="School">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/institucional/school/index.html" target="_blank" class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box institucional">
+                <h3>logomarc</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/logomarc-front.png" alt="Logomarc">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/logomarc-back.png" alt="Logomarc">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">SCSS</button>
+                            <button class="btn dark">JS</button>
+                            <button class="btn dark">Bootstrap</button>
+                            <a href="./projetos/institucional/logomarc/index.html" target="_blank"
+                                class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Delivery -->
+            <div class="box delivery">
+                <h3>Coffee</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/coffee-front.png" alt="Coffee">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/coffee-back.png" alt="Coffee">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/delivery/coffee/index.html" target="_blank" class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box delivery">
+                <h3>Food.</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/food-front.png" alt="Food">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/food-back.png" alt="Food">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/delivery/food/index.html" target="_blank" class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box delivery">
+                <h3>Resto.</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/resto-front.png" alt="Resto">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/resto-back.png" alt="Resto">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/delivery/resto/index.html" target="_blank" class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jogos -->
+            <div class="box jogos">
+                <h3>Jogo da Velha</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/velha-front.png" alt="Jogo da Velha">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/velha-back.png" alt="Jogo da Velha">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/jogos/velha/index.html" target="_blank" class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box jogos">
+                <h3>Jogo da Memória</h3>
+
+                <div class="box-content">
+                    <div class="front">
+                        <img src="./assets/images/projetos/memoria-front.png" alt="Jogo da Memória">
+                    </div>
+
+                    <div class="back">
+                        <img src="./assets/images/projetos/memoria-back.png" alt="Jogo da Memória">
+
+                        <div class="btn-group">
+                            <button class="btn dark">HTML</button>
+                            <button class="btn dark">CSS</button>
+                            <button class="btn dark">JS</button>
+                            <a href="./projetos/jogos/memoria/index.html" target="_blank" class="btn red">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- projetos section ends -->
+
+    <!-- contato section starts -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="content">
+                <h2 class="title">Fale comigo</h2>
+                <p class="graph">Envie-me sua mensagem, vamos conversar sobre o próximo projeto. Tenho certeza que você
+                    já
+                    tem algumas ideias em mente. Vamos falar sobre isso.</p>
+            </div>
+
+            <div class="info">
+                <div class="box-container">
+                    <div class="box">
+                        <i class="fas fa-envelope"></i><span>E-mail</span>
+                        <a href="mailto:bhigoreduardo@gmail.com">bhigoreduardo@gmail.com</a>
+                    </div>
+
+                    <div class="box">
+                        <i class="fas fa-mobile-alt"></i><span>Telefone</span>
+                        <a href="tel:+55 (66) 9 99673-5787">+55 (66) 9 99673-5787</a>
+                    </div>
+
+                    <div class="box">
+                        <i class="fab fa-whatsapp"></i><span>WhatsApp</span>
+                        <a href="tel:+55 (66) 9 99673-5787">+55 (66) 9 99673-5787</a>
+                    </div>
+
+                    <div class="box">
+                        <i class="fas fa-map-marker-alt"></i><span>Endereço</span>
+                        <span style="display: block; margin-top: 1rem;">Colatina, ES - Brasil</span>
+                    </div>
+                </div>
+
+                <div class="share">
+                    <a href="https://www.instagram.com/bhigoreduardo/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/higor-eduardo-batista-a833ab230/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/higoreduardo.batista.5/" target="_blank"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/bhigoreduardo" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/bhigoreduardo" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contato section ends -->
+
+    <!-- footer section starts -->
+    <footer>
+        <div class="links">
+            <a href="./index.html" class="btn dark">Home</a>
+            <a href="#projetos" class="btn dark">Projetos</a>
+            <a href="#contato" class="btn dark">Contato</a>
+        </div>
+
+        <div class="credit">
+            <span>Copyright 2022 © - <a href="https://bhigoreduardo.github.io/Front-End/" class="btn red">Higor
+                    Eduardo</a> | Todos os
+                direitos
+                reservados</span>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+    <!-- jQuery CDN Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Isotope CDN Link -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- Custom JS Link -->
+    <script src="./assets/scripts/script.js"></script>
+</body>
+
+</html>
